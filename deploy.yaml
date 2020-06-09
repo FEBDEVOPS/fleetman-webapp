@@ -17,7 +17,7 @@ spec:
         env:
         - name: SPRING_PROFILES_ACTIVE
           value: production-microservice
-        image: swetasir/webapp:tagname
+        image: swetasir/webapp:latest
         readinessProbe:
           httpGet:
             path: /
